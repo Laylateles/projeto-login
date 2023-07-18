@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        </article>
+        
+        <form action="login.php" method="post">
+            <p>
+                <label for="iemail">e-mail</label>
+                <input type="email" name="email" id="iemail" required placeholder="seu e-mail" minlength="8" maxlength="25">
+            </p>
+            <p>
+                <label for="isenha">senha</label>
+                <input type="password" name="senha" id="isenha" required placeholder="sua senha" min="8" max="20" >
+            </p>
+            <p>
+                <input type="submit" value="Entrar" id="entrar">
+            </p>
+            <p>
+                <a href="esqueci.html" id="esqueci">Esqueci a senha</a>
+            </p>
+        </form>
+    </main>
+
+</body>
+</html>
