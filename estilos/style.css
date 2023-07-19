@@ -28,7 +28,20 @@ main {
     background-color: white;
     margin: auto;
     display: block;
-    width: 300px;
+    width: 250px;
+    height: 510px;
+    margin-top: 45px;
+    border-radius: 18px;
+    box-shadow: -1px -2px 5px rgba(0, 0, 0, 0.411);
+}
+
+#imagem{
+   background-image: url('../imagens/metal.jpg');
+   background-size: cover;
+   background-position:left bottom;
+   border-radius: 18px 18px 0px 0px;
+   width: 250px;
+   height: 200px;
 }
 
 h1 {
@@ -37,37 +50,70 @@ h1 {
 }
 
 article p {
-    padding: 8px;
-    text-align: justify;
+    padding: 7px;
+    font-size: 13px;
+    font-weight: lighter;
+   line-height: 17px ;
+}
+
+span.material-symbols-outlined {
+    font-size: 30px;
+    height: 20px;
+    display: inline-block;
 }
 
 #iemail {
     padding: 7px;
     color: var(--cor0);
     background-color: var(--cor1);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
 }
 
 #isenha {
     padding: 7px;
     color: var(--cor0);
     background-color: var(--cor1);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
 }
 
 #entrar {
-    padding: 25px;
+    font-size: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 80px;
+    padding-right: 99px;
+    margin-left: 16px;
+    color: white;
+    background-color: #6ea5a3;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -1px -1px 2px var(--cor2);
+}
+
+#entrar:hover {
+    background-color: var(--corh);
 }
 
 a {
     display: block;
     text-decoration: none;
     text-align: center;
-    color:var(--cor2) ;
+    color:var(--corh) ;
     padding: 10px;
     border-radius: 5px;
     margin: 15px;
 }
 
 #esqueci {
+    margin-top: 5px;
     border: 1px solid var(--cor2);
+    box-shadow: 1px 1px 1px var(--cor2);
+}
 
+#esqueci:hover {
+   background-color: var(--cor1);
 }
