@@ -6,6 +6,7 @@
     <title>Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width:768px) and (max width:992px)">
 </head>
 <body>
     <main>
@@ -18,16 +19,15 @@
         
         <form action="login.php" method="post">
 
-            <div>
-                <span class="material-symbols-outlined">
-                    person
-                    </span>
-                <input type="email" name="email" id="iemail" required placeholder="seu e-mail" minlength="8" maxlength="25">
+            <div class="dados">
+    <span class="material-symbols-outlined">person</span>
+                <input type="email" name="email" id="iemail" required minlength="8" maxlength="25" >
                 <label for="iemail"></label>
             </div>
-            <p>
-                <label for="isenha">senha</label>
-                <input type="password" name="senha" id="isenha" required placeholder="sua senha" min="8" max="20" >
+            <p class="dados">
+    <span class="material-symbols-outlined"> key</span>
+                <input type="password" name="senha" id="isenha" required min="8" max="20" >
+                <label for="isenha"></label>
             </p>
             <p>
                 <input type="submit" value="Entrar" id="entrar">
