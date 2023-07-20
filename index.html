@@ -6,37 +6,37 @@
     <title>Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width:768px) and (max width:992px)">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+
 </head>
 <body>
     <main>
-        <article>
+        <article id="login">
             <div id="imagem">
             </div>
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        </article>
-        
-        <form action="login.php" method="post">
-
-            <div class="dados">
-    <span class="material-symbols-outlined">person</span>
-                <input type="email" name="email" id="iemail" required minlength="8" maxlength="25" >
-                <label for="iemail"></label>
+            <div id="formulário">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post">
+                    <div class="dados">
+                <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="email" id="iemail" required minlength="8" maxlength="25" >
+                        <label for="iemail"></label>
+                    </div>
+                    <p class="dados">
+                <span class="material-symbols-outlined"> key</span>
+                        <input type="password" name="senha" id="isenha" required min="8" max="20" >
+                        <label for="isenha"></label>
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar" id="entrar">
+                    </p>
+                    <p>
+                        <a href="esqueci.html" id="esqueci">Esqueci a senha</a>
+                     </p>
+                 </form>
             </div>
-            <p class="dados">
-    <span class="material-symbols-outlined"> key</span>
-                <input type="password" name="senha" id="isenha" required min="8" max="20" >
-                <label for="isenha"></label>
-            </p>
-            <p>
-                <input type="submit" value="Entrar" id="entrar">
-            </p>
-            <p>
-                <a href="esqueci.html" id="esqueci">Esqueci a senha</a>
-            </p>
-        </form>
+        </article>
     </main>
-
 </body>
 </html>
