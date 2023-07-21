@@ -57,92 +57,64 @@ div#formulario {
    padding: 10px;
 }
 
+
 h1 {
     padding: 10px;
     text-align: center;
 }
 
 article p {
-    padding: 7px;
+    padding-left: 7px;
+    padding-right: 7px ;
     font-size: 13px;
     font-weight: lighter;
-   line-height: 17px ;
+    line-height: 17px ;
 }
 
+/* daqui pra cima todas as configurações ok */
 
-.material-symbols-outlined {
-    font-size: 1.9em;
+
+
+
+
+
+
+/* aqui até o próximo coment OK */
+
+input[type=submit]  {
+    display: block;
+    font-size: 1em;
     height: 40px;
-    padding: 5px;
-}
-
-.dados {
     width: 100%;
-    height: 40px;
-    margin: 5px 0px;
-    background-color: var(--cor4);
-    border-radius: 10px;
-    color: white;
-
-}
-
-
-
-#iemail {
-    padding-top: 20px;
-    padding-right: 8px;
-    color: var(--cor0);
-    background-color: var(--cor1);
-    border-radius: 5px;
-    border: none;
-}
-
-
-#isenha {
-    padding-top: 20px;
-    padding-right: 8px;
-    color: var(--cor0);
-    background-color: var(--cor1);
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: none;
-    
-}
-
-#entrar {
-    font-size: 15px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 80px;
-    padding-right: 99px;
-    margin-left: 7px;
     color: white;
     background-color: #6ea5a3;
     border: none;
     border-radius: 5px;
     box-shadow: -1px -1px 2px var(--cor2);
+    cursor: pointer;
 }
 
-#entrar:hover {
+input[type=submit]:hover {
     background-color: var(--corh);
 }
-
-form a {
+ 
+.botao{
     display: block;
     text-decoration: none;
     text-align: center;
+    padding-top: 8px;
+    margin-top: 6px;
+    font-size: 1em;
     color:var(--corh) ;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 6px;
-}
-
-#esqueci {
-    margin-top: 5px;
+    width: 100%;
+    height: 40px;
     border: 1px solid var(--cor2);
     box-shadow: 1px 1px 1px var(--cor2);
+    border-radius: 5px;
 }
 
-#esqueci:hover {
+.botao:hover {
    background-color: var(--cor1);
 }
+
+/* AQUI */

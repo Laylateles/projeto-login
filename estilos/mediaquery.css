@@ -26,6 +26,10 @@ grandes telas:1200px and more
         float: right;
         width: 70%;
     }
+    article p {
+        padding: 10px;
+        font-size: 1.2em;
+        }
 }
 
 
@@ -39,15 +43,23 @@ grandes telas:1200px and more
      }
 
     #imagem {
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
     }
 
     div#formulario {
-    float: right;
+    float: left;
     width: 50%;
     }
+    
+   h1 {
+    font-size: 2em;
+   }
+    article p {
+        padding: 10px;
+        font-size: 1.2em;
+        }
 }
 
 
