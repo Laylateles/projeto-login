@@ -30,6 +30,9 @@ grandes telas:1200px and more
         padding: 10px;
         font-size: 1.2em;
         }
+     input[type=submit] {
+        width: 70%;
+     }
 }
 
 
@@ -60,6 +63,9 @@ grandes telas:1200px and more
         padding: 10px;
         font-size: 1.2em;
         }
+    input[type=submit] {
+        width: 50%;
+    }
 }
 
 
