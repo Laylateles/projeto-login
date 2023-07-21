@@ -15,7 +15,8 @@ grandes telas:1200px and more
         background-image: linear-gradient(to bottom, #5F2C82 30%,#4C9099,#94CFCD );
  }
     article#login {
-        width: 80vw;
+        width: 90vw;
+        height: 350px;
      }
     #imagem {
         float: left;
@@ -33,6 +34,9 @@ grandes telas:1200px and more
      input[type=submit] {
         width: 70%;
      }
+     div.dados input {
+        width: 62%;
+     }
 }
 
 
@@ -43,6 +47,7 @@ grandes telas:1200px and more
  }
      article#login {
     width: 950px;
+    height: 360px;
      }
 
     #imagem {
@@ -62,9 +67,13 @@ grandes telas:1200px and more
     article p {
         padding: 10px;
         font-size: 1.2em;
+        line-height: 22px;
         }
     input[type=submit] {
         width: 50%;
+    }
+    div.dados input {
+        width: 44.5%;
     }
 }
 
