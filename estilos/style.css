@@ -95,7 +95,7 @@ div.dados input {
      margin-left: 3px;
      height: 100%;
      border-radius: 5px;
-     transform: translateY(-30px);
+     transform: translateY(-14px);
 }
 
 div.dados input:focus-within {
